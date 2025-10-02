@@ -13,7 +13,7 @@ import (
 	_ "dzhgo/internal/packed"
 
 	_ "github.com/gogf/gf/contrib/drivers/sqlite/v2"
-	// _ "github.com/gogf/gf/contrib/nosql/redis/v2"
+	_ "github.com/gogf/gf/contrib/nosql/redis/v2"
 )
 
 var (
@@ -35,7 +35,6 @@ var (
 			}
 
 			s := g.Server()
-			// s.AddStaticPath("/dzhimg/public", "/public")
 			s.Run()
 
 			return nil

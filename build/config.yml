@@ -29,7 +29,7 @@ dev_mode:
       - .gitignore
       - .gitkeep
     watched_extension:
-      - "*.go"
+      # - "*.go"
     git_ignore: true
   executes:
     - cmd: wails3 task common:install:frontend:deps
