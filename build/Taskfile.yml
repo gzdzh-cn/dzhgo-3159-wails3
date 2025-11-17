@@ -16,7 +16,7 @@ tasks:
     generates:
       - node_modules/*
     preconditions:
-      - sh: yarn version
+      - sh: yarn --version
         msg: "Looks like yarn isn't installed. yarn is part of the Node installer: https://nodejs.org/en/download/"
     cmds:
       - yarn install
